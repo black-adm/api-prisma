@@ -22,7 +22,7 @@
 
 - Estou utilizando o banco `sqlite` com a extensão do vscode `database client`. Você pode usar o docker ou rodar o banco de dados direto da sua máquina local se preferir.
 
-> Após instalar as dependências e rodar o banco, digite o comando `npm prisma migrate dev` ou `yarn prisma migrate dev` para gerar os models no banco dos schemas do prisma.
+> Após instalar as dependências e rodar o banco, digite o comando `npm prisma migrate dev` ou `yarn prisma migrate dev` para o prisma gerar os models do schema no seu banco.
 
 ![api-node-prisma](https://i.ibb.co/DLrwcQp/api-movie-prisma.png)
 
