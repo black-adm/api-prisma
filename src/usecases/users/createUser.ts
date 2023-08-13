@@ -10,7 +10,7 @@ export const CreateUser = async ({ name, email }: CreateUserDto): Promise<User> 
     });
 
     if (userAlreadyExists) {
-        throw new Error("E-mail já cadastrado!")
+        ("E-mail já cadastrado!")
     }
 
     const user = await prisma.user.create({
