@@ -3,16 +3,8 @@ import { CreateUserController } from "../../usecases/users/createUserController"
 
 const routes = Router();
 
-routes.get("/", (req, res) => res.json({ sucess: true }))
+routes.get("/", (req, res) => res.json({ success: true }));
 
-routes.post("/users", async (req, res) => {
-    try {
-        const result = await CreateUserController(req, res);
-        res.status(201).json(result)
-    }
-    catch (error) {
-        res.status(500).json({ error });
-    }
-})
+routes.post("/users", CreateUserController);
 
-export { routes }
+export { routes };
