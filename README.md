@@ -20,7 +20,7 @@
 
 - Instale as dependências com o comando `npm install` ou `yarn install`.
 
-- Estou utilizando o banco `sqlite` com a extensão do vscode `database client`, você pode usar o docker ou rodar o banco na sua direto da sua máquina se preferir.
+- Estou utilizando o banco `sqlite` com a extensão do vscode `database client`. Você pode usar o docker ou rodar o banco sua direto da sua máquina local se preferir.
 
 > Após instalar as dependências e rodar o banco, digite o comando `npm prisma migrate dev` ou `yarn prisma migrate dev` para gerar os models no banco dos schemas do prisma.
 
